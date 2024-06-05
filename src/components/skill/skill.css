@@ -1,0 +1,36 @@
+.skill {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--color-text-gray);
+  border-radius: 1em;
+  padding: 20px;
+  box-shadow: -6px -6px 7px var(--color-bg-secondary-light),
+    -6px 6px 7px var(--color-bg-secondary-light),
+    6px 6px 7px var(--color-bg-secondary-light),
+    6px -6px 7px var(--color-bg-secondary-light);
+}
+.skill img {
+  margin: 5px;
+  max-width: 96px;
+}
+.skill img:nth-child(odd) {
+  margin: 10px;
+  rotate: -10deg;
+}
+.skill img:nth-child(even) {
+  margin: 5px;
+  rotate: 10deg;
+}
+
+/* styling for other devices  */
+@media screen and (max-width: 768px) {
+  .skill img {
+    max-width: 72px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .skill img {
+    max-width: 46px;
+  }
+}
