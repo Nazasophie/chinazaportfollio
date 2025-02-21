@@ -29,6 +29,7 @@ import digiImage from '../../assets/images/digigirl.jpg';
 import syncertImage from '../../assets/images/syncert.jpg';
 import alxcertImage from '../../assets/images/alxcert.jpg';
 import gyftstoreImage from '../../assets/images/gyftstore.jpg';
+import alxcertttyImage from '../../assets/images/alxcerttty.jpg';
 
 
 
@@ -63,7 +64,10 @@ const Projects = ({ title, subtitle, note }) => {
                     
                 </div>
                 
-
+                <div className="project">
+                    <img src={alxcertttyImage} className="project-image" alt="alx cert image" />
+                    
+                </div>
 
 
             </div>
