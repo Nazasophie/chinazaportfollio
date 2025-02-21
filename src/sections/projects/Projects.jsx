@@ -87,17 +87,32 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
+
+
+
                 <div className="project">
-                    <img src={kryptolandImage} className="project-image" alt="kryptoland" />
+                    <img src={translatorImage } className="project-image" alt="kryptoland" />
                     <p className="project-text">
-                        One stop home for all information about crytocurencies; including
-                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
-                        exchanges and others.
+                    "Developed a sleek and responsive real estate website with property. Designed for seamless user experience and optimized for performance and SEO.
                     </p>
-                    <a href='https://kryptoland.netlify.app/' target='_blank' rel="noreferrer">
+                    <a href='http://folkhomesltd.com' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
+
+
+                <div className="project">
+                    <img src={baynetfuseImage} className="project-image" alt="baynetfuse" />
+                    <p className="project-text">
+                    Designed and developed a modern, user-friendly church website featuring service times, event updates,
+                     sermon archives, and a donation platform. Optimized for accessibility and mobile responsiveness to enhance community engagement..
+                    </p>
+                    <a href='https://transform-life-church.vercel.app/' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+
+
 
                 <div className="project">
                     <img src={gyftstoreImage} className="project-image" alt="gyft store website" />

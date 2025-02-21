@@ -22,7 +22,8 @@ const Hero = ({ name, designation, greeting }) => {
     const options = {
       strings: [
         'Frontend Developer',
-        'WordPress Web Desinger',
+        'IT Support Specialist',
+        'Good with Excel',
         'Technical Writer',
         'Web Designer',
         'Good with ReactJs',
