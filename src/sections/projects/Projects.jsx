@@ -29,7 +29,6 @@ import digiImage from '../../assets/images/digigirl.jpg';
 import syncertImage from '../../assets/images/syncert.jpg';
 import alxcertImage from '../../assets/images/alxcert.jpg';
 import gyftstoreImage from '../../assets/images/gyftstore.jpg';
-import alxcertttyImage from '../../assets/images/alxcerttty.jpg';
 
 
 
@@ -64,10 +63,7 @@ const Projects = ({ title, subtitle, note }) => {
                     
                 </div>
                 
-                <div className="project">
-                    <img src={alxcertttyImage} className="project-image" alt="alx cert image" />
-                    
-                </div>
+
 
 
             </div>
@@ -87,31 +83,27 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
-
-
-
                 <div className="project">
-                    <img src={translatorImage } className="project-image" alt="kryptoland" />
+                    <img src={kryptolandImage} className="project-image" alt="kryptoland" />
                     <p className="project-text">
-                    "Developed a sleek and responsive real estate website with property. Designed for seamless user experience and optimized for performance and SEO.
+                        One stop home for all information about crytocurencies; including
+                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
+                        exchanges and others.
                     </p>
-                    <a href='http://folkhomesltd.com' target='_blank' rel="noreferrer">
+                    <a href='https://kryptoland.netlify.app/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
 
 
                 <div className="project">
-                    <img src={baynetfuseImage} className="project-image" alt="baynetfuse" />
-                    <p className="project-text">
-                    Designed and developed a modern, user-friendly church website featuring service times, event updates,
-                     sermon archives, and a donation platform. Optimized for accessibility and mobile responsiveness to enhance community engagement..
-                    </p>
-                    <a href='https://transform-life-church.vercel.app/' target='_blank' rel="noreferrer">
+                    <img src={edublokImage} className="project-image" alt="edublok" />
+                    <a href='https://edublok.koinwa.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
 
+            </div>
 
 
                 <div className="project">
