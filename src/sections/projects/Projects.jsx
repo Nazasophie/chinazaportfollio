@@ -69,7 +69,7 @@ const Projects = ({ title, subtitle, note }) => {
             </div>
 
             {/* ReactJs and Javascript projects */}
-            <h3 className='category-title'>ReactJs and Javascript projects</h3>
+            <h3 className='category-title'> Projects Design</h3>
             <div className="project-container">
 
                 <div className="project">
