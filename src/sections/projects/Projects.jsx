@@ -103,6 +103,17 @@ const Projects = ({ title, subtitle, note }) => {
                     </a>
                 </div>   
 
+
+                <div className="project">
+                    <img src={translatorImage} className="project-image" alt="language translator" />
+                    <p className="project-text">
+                        A Real Estate Website.
+                    </p>
+                    <a href="https://folkhomesltd.com" target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+
                 <div className="project">
                     <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
                     <p className="project-text">
