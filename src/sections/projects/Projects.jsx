@@ -115,11 +115,8 @@ const Projects = ({ title, subtitle, note }) => {
                 </div>
 
                 <div className="project">
-                    <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
-                    <p className="project-text">
-                        A simple language translator with text-to-voice and copy functionality.
-                    </p>
-                    <a href="https://www.gyft.ng/" target='_blank' rel="noreferrer">
+                    <img src={studentTaxHelpImage} className="project-image" alt="student tax help" />
+                    <a href='https://studenttaxhelp.ca/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
