@@ -97,14 +97,11 @@ const Projects = ({ title, subtitle, note }) => {
 
 
                 <div className="project">
-                    <img src={edublokImage} className="project-image" alt="edublok" />
-                    <a href='https://edublok.koinwa.com/' target='_blank' rel="noreferrer">
+                    <img src={zecnetImage} className="project-image" alt="zecnet tech image" />
+                    <a href='https://zecnet-tech.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
-                </div>
-
-            </div>
-
+                </div>   
 
                 <div className="project">
                     <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
