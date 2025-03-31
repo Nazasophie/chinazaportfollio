@@ -21,13 +21,13 @@ const Hero = ({ name, designation, greeting }) => {
   React.useEffect(() => {
     const options = {
       strings: [
+        'FullStack Developer',
         'Frontend Developer',
         'IT Support Specialist',
         'Good with Excel',
         'Technical Writer',
         'Web Designer',
-        'Good with ReactJs',
-        'Friends with CSS',
+        'Application Developer',
         'UI/UX Designer',
         'Clean Codes',
         'Do Hard Things',
