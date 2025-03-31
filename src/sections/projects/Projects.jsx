@@ -83,18 +83,7 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
-                <div className="project">
-                    <img src={kryptolandImage} className="project-image" alt="kryptoland" />
-                    <p className="project-text">
-                        One stop home for all information about crytocurencies; including
-                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
-                        exchanges and others.
-                    </p>
-                    <a href='https://kryptoland.netlify.app/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-
+                
 
                 <div className="project">
                     <img src={zecnetImage} className="project-image" alt="zecnet tech image" />
