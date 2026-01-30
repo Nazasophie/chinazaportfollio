@@ -75,11 +75,9 @@ const Projects = ({ title, subtitle, note }) => {
                 <div className="project">
                     <img src={easyRecipeImage} className="project-image" alt="easy recipe" />
                     <p className="project-text">
-                        A recipe app that fetches a list of all
-                        recipes from external API and provide dynamic
-                        search functionality.
+                        An Ecommerce Fashion Website.
                     </p>
-                    <a href='https://easyrecipee.netlify.app/' target='_blank' rel="noreferrer">
+                    <a href='https://marysmartcollections.com/' target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
                     </a>
                 </div>
