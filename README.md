@@ -21,6 +21,6 @@
 - 
 ## 🔧 Support
 
-For support, email eje.nathaniel@gmail.com
+For support, email chinazasundaygoodness@gmail.com
 
 ### 🙏 Thank you
