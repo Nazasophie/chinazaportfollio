@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Eje Nathaniel
+# 👋 Hi, I’m Chinaza Sunday
 
 ## 🚀 About Me
 
